@@ -77,7 +77,7 @@ export default function CoachProfilePage() {
             </div>
             <div className="metric-card">
               <p className="text-sm text-slate-500">Hourly Rate</p>
-              <p className="mt-2 text-lg font-semibold">${coach.hourlyRate}</p>
+              <p className="mt-2 text-lg font-semibold">EUR {coach.hourlyRate}</p>
             </div>
           </div>
 
@@ -128,7 +128,7 @@ export default function CoachProfilePage() {
                         <p className="mt-2 text-sm text-slate-600">{offer.description}</p>
                       </div>
                       <span className="rounded-full bg-brand-soft px-4 py-2 text-sm font-semibold text-brand-teal">
-                        ${offer.price}
+                        EUR {offer.price}
                       </span>
                     </div>
                   </div>

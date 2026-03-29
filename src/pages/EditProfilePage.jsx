@@ -126,7 +126,7 @@ export default function EditProfilePage() {
               />
             </label>
             <label className="block">
-              <span className="mb-2 block text-sm font-semibold text-slate-700">Hourly Rate</span>
+              <span className="mb-2 block text-sm font-semibold text-slate-700">Hourly Rate (EUR)</span>
               <input
                 type="number"
                 value={form.hourlyRate}

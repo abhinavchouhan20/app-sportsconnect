@@ -13,7 +13,7 @@ const features = [
   {
     icon: <FaSearch />,
     title: "Discover talent fast",
-    body: "Athletes showcase skills with video, data, and achievements. Coaches find the right fit with targeted filters.",
+    body: "Athletes showcase clips, metrics, and achievements. Coaches and academies find the right fit with targeted filters.",
   },
   {
     icon: <FaBrain />,
@@ -74,8 +74,8 @@ export default function LandingPage() {
                 <span className="block text-brand-soft">Discover opportunities.</span>
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-white/85">
-                SportMatch helps ambitious athletes get discovered and gives coaches a modern scouting workflow with
-                profiles, videos, AI analysis, and direct messaging in one polished experience.
+                SportMatch helps ambitious athletes get discovered across Europe and gives coaches, clubs, and academies
+                a modern scouting workflow with profiles, videos, AI analysis, and direct messaging.
               </p>
 
               <div className="mt-10 flex flex-wrap gap-4">
@@ -124,7 +124,7 @@ export default function LandingPage() {
 
                 <div className="mt-6 space-y-4">
                   {[
-                    ["Maya Patel", "Cricket", "Power 9.0"],
+                    ["Maya Patel", "Football", "Power 9.0"],
                     ["Liam Carter", "Football", "Speed 9.0"],
                     ["Ava Chen", "E-Sports", "Accuracy 9.0"],
                   ].map(([name, sport, metric]) => (

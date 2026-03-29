@@ -12,7 +12,7 @@ export default function SignupPage() {
     email: "",
     password: "",
     fullName: "",
-    sport: "Cricket",
+    sport: "Football",
   });
   const [error, setError] = useState("");
 

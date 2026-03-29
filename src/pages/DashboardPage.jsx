@@ -322,7 +322,7 @@ function AthleteDashboard() {
               secondaryLabel="Message"
               secondaryTo={`/messages?user=${coach.id}`}
             >
-              <p className="text-sm font-semibold text-slate-600">Rate: ${coach.hourlyRate}/hour</p>
+              <p className="text-sm font-semibold text-slate-600">Rate: EUR {coach.hourlyRate}/hour</p>
             </ProfileCard>
           ))}
         </div>
@@ -425,7 +425,7 @@ function CoachDashboard() {
               </div>
               <div className="metric-card">
                 <p className="text-sm text-slate-500">Hourly Rate</p>
-                <p className="mt-2 text-lg font-semibold">${currentUser.hourlyRate}</p>
+                <p className="mt-2 text-lg font-semibold">EUR {currentUser.hourlyRate}</p>
               </div>
             </div>
             <div className="rounded-3xl border border-slate-200 bg-slate-50 p-5">
@@ -562,7 +562,7 @@ function CoachDashboard() {
                     <p className="mt-2 text-sm leading-6 text-slate-600">{offer.description}</p>
                   </div>
                   <span className="rounded-full bg-brand-soft px-4 py-2 text-sm font-semibold text-brand-teal">
-                    ${offer.price}
+                    EUR {offer.price}
                   </span>
                 </div>
               </div>
